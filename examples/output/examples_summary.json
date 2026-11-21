@@ -1,0 +1,113 @@
+{
+  "normal": {
+    "river": "Kali Biru",
+    "n_days": 30,
+    "seed": 42,
+    "water_class": "II",
+    "stations": {
+      "KB-01": {
+        "mean_nsf_wqi": 87.09,
+        "min_nsf_wqi": 86.49,
+        "mean_ccme_wqi": 100.0,
+        "min_ccme_wqi": 100.0,
+        "n_alerts": 0,
+        "last_water_class": "I",
+        "n_readings": 720,
+        "n_missing": 4
+      },
+      "KB-02": {
+        "mean_nsf_wqi": 80.73,
+        "min_nsf_wqi": 80.62,
+        "mean_ccme_wqi": 100.0,
+        "min_ccme_wqi": 100.0,
+        "n_alerts": 0,
+        "last_water_class": "I",
+        "n_readings": 720,
+        "n_missing": 17
+      },
+      "KB-03": {
+        "mean_nsf_wqi": 78.48,
+        "min_nsf_wqi": 78.26,
+        "mean_ccme_wqi": 100.0,
+        "min_ccme_wqi": 100.0,
+        "n_alerts": 0,
+        "last_water_class": "I",
+        "n_readings": 720,
+        "n_missing": 11
+      }
+    },
+    "alerts": {
+      "total": 0,
+      "by_max_level": {},
+      "by_parameter": {},
+      "unresolved": 0
+    },
+    "artefacts": {
+      "database": "/home/hatch/workspace/github-daily/big-daily/water-quality-monitoring-system/examples/output/normal/readings.db",
+      "report": "/home/hatch/workspace/github-daily/big-daily/water-quality-monitoring-system/examples/output/normal/report.md",
+      "dashboard": "/home/hatch/workspace/github-daily/big-daily/water-quality-monitoring-system/examples/output/normal/dashboard.html",
+      "readings_csv": "/home/hatch/workspace/github-daily/big-daily/water-quality-monitoring-system/examples/output/normal/readings.csv",
+      "summary": "/home/hatch/workspace/github-daily/big-daily/water-quality-monitoring-system/examples/output/normal/summary.json"
+    }
+  },
+  "event": {
+    "river": "Kali Biru",
+    "n_days": 30,
+    "seed": 42,
+    "water_class": "II",
+    "stations": {
+      "KB-01": {
+        "mean_nsf_wqi": 86.35,
+        "min_nsf_wqi": 76.1,
+        "mean_ccme_wqi": 99.04,
+        "min_ccme_wqi": 85.36,
+        "n_alerts": 1,
+        "last_water_class": "I",
+        "n_readings": 720,
+        "n_missing": 4
+      },
+      "KB-02": {
+        "mean_nsf_wqi": 79.2,
+        "min_nsf_wqi": 69.83,
+        "mean_ccme_wqi": 97.39,
+        "min_ccme_wqi": 81.11,
+        "n_alerts": 5,
+        "last_water_class": "I",
+        "n_readings": 720,
+        "n_missing": 17
+      },
+      "KB-03": {
+        "mean_nsf_wqi": 76.97,
+        "min_nsf_wqi": 66.18,
+        "mean_ccme_wqi": 97.45,
+        "min_ccme_wqi": 85.42,
+        "n_alerts": 4,
+        "last_water_class": "I",
+        "n_readings": 720,
+        "n_missing": 11
+      }
+    },
+    "alerts": {
+      "total": 10,
+      "by_max_level": {
+        "critical": 3,
+        "warning": 7
+      },
+      "by_parameter": {
+        "turbidity_ntu": 3,
+        "do_mg_l": 2,
+        "tds_mg_l": 2,
+        "conductivity_us_cm": 2,
+        "orp_mv": 1
+      },
+      "unresolved": 0
+    },
+    "artefacts": {
+      "database": "/home/hatch/workspace/github-daily/big-daily/water-quality-monitoring-system/examples/output/event/readings.db",
+      "report": "/home/hatch/workspace/github-daily/big-daily/water-quality-monitoring-system/examples/output/event/report.md",
+      "dashboard": "/home/hatch/workspace/github-daily/big-daily/water-quality-monitoring-system/examples/output/event/dashboard.html",
+      "readings_csv": "/home/hatch/workspace/github-daily/big-daily/water-quality-monitoring-system/examples/output/event/readings.csv",
+      "summary": "/home/hatch/workspace/github-daily/big-daily/water-quality-monitoring-system/examples/output/event/summary.json"
+    }
+  }
+}
